@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entertainment</title>
+	<!--Link to stylesheet -->
+	<link rel="stylesheet" href="styler.css" type="text/css" />
+	
+	<style type="text/css">
+	table {
+			width:100%
+			border-collapse: collapse;
+			margin:auto;
+		}
+		tr{
+			background-color:white;
+			color: black;
+		}
+		td {
+			border: 1.9px solid black;
+			padding: 10px;
+		}
+		th {
+			color:white;
+			background-color:brown;
+		}
+		caption {
+			padding: .6em;
+			color:white;
+			background-color:black;
+			font-weight:bold;
+			font-size:1.3em;
+		}
+		tr.stripe {
+			background-color:black;
+			color:white;
+		}
+		td.adulthood {
+			color:white;
+			background-color:black;
+		}
+		img.right{
+			display: block;
+			margin: 0 0 0 auto;
+			padding: 2em 0 2em 0;
+		}
+		main{
+			min-width:200px;
+		}
+		aside{
+			float:right;
+			width:520px;
+		}
+	</style>
+</head>
+<!--Wrapper responsible for centering and filling the screen -->
+<div id="wrapper">
+<header>
+<!--This header will be copied across all pages -->
+<header>
+	<img class="headerImg" src="Images/RoastiesLogo.jpg" alt="header image" />
+	<!--Nav bar-->
+	<ul class="navbar">
+		<li class="nav"><a href="index.htm">Home</a></li>
+		<li class="nav"><a href="menu.htm">Menu</a></li>
+		<li class="nav"><a href="entertainment.htm">Live Entertainment/Events</a></li>
+		<li class="nav"><a href="aboutUs.htm">About Us</a></li>
+		<li class="nav"><a href="locationHours.htm">Location/Contact Us</a></li>
+	</ul>	
+</header>
+<body>
+ <!--Aside element for my fixed width dual column layout. -->
+ <aside>
+	<img src="Images/singer1.jpg" alt="Songfest" >
+	<img src="Images/chess.jpg" alt="chess" >
+	<br>
+	<img src="Images/singer2.jpg" alt="Mark Mckay" >
+	<img src="Images/singer3.jpg" alt="Backyard Girls" >
+ </aside>
+ <main>
+	<table title="events">
+		<caption>Upcoming Events</caption>
+		<tr>
+			<th>Event</th>
+			<th>Event Date/ Time</th>
+			<th>Event Description</th>
+		</tr>
+		<tr>
+			<td>Chess Night</td>
+			<td>Every Monday/ 5:30PM - 9:00PM </td>
+			<td>Come and enjoy chess with friends and strangers alike!</td>
+		</tr>
+		<tr>
+			<td>Sunday Songwriters Songfest</td>
+			<td>February 21/ 4:00PM - 7:00PM</td>
+			<td>Enjoy artists such as Kate Macleod and Joel Bernstein, performing live.</td>
+		</tr>
+		<tr>
+			<td>Mark Mckay</td>
+			<td>February 27th/ 8:00PM - 10:00PM</td>
+			<td>Come and be serenaded by the powerful Mark Mckay.</td>
+		</tr>
+		<tr>
+			<td>The Backyard Girls: pop acoustic guitar</td>
+			<td>February 27th / 8:00PM - 10:00PM</td>
+			<td>The backyard girls are back at it again with their new track, Super Slides.</td>
+		</tr>
+	</table>
+ </main>
+ <br>
+ <br>
+ <br>
+ <br>
+</body>
+<footer>
+	<h6>Roastie's Coffee. All rights reserved. Website powered by Austin Kingrey Industries</h6>
+</footer>
+</div>
+</html>

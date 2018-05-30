@@ -1,0 +1,20 @@
+body{
+	text-size: 1.15em;
+	font: Arial;
+	color:teal;
+	background-color:silver;
+}
+h1{
+	background-color:black;
+	color:white;
+	padding:10px;
+	border: solid white 5px;
+}
+
+img{
+	float: left;
+}
+
+h3.clear{
+	clear:both;
+}

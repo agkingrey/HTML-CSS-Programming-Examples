@@ -1,0 +1,31 @@
+/*
+	Austin Kingrey 9/25/17
+*/
+
+body {
+	font: Verdana;
+	background-color: #c0e59b;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	color: navy;
+}
+h3{
+	font-weight: bold;
+	color: navy;
+}
+
+h4{
+	text-transform: uppercase;
+	font-style: italic;
+	color: maroon;
+}
+
+p{
+	text-indent: 5em;
+	line-height: 1.5em;
+}

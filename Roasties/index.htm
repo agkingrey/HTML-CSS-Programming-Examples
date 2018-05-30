@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home Page</title>
+	<!--Link to stylesheet -->
+	<link rel="stylesheet" href="styler.css" type="text/css" />
+	
+	<style type="text/css">
+		h1{
+			text-align:center;
+		}
+		li.list{
+			font-size:1.3em;
+		}
+		#center{
+			width:40%;
+			margin: 0 auto 0 auto;
+			text-align:left;
+			padding-left: 20%;
+		}
+		h2{
+			text-align:center;
+		}
+		a.linker{	
+			padding: 0;
+			background-color: tan;
+			text-align: left;
+		}
+	</style>
+</head>
+<!--Wrapper responsible for centering and filling the screen -->
+<div id="wrapper">
+<!--This header will be copied across all pages -->
+<header>
+	<img class="headerImg" src="Images/RoastiesLogo.jpg" alt="header image" />
+	<!--Nav bar-->
+	<ul class="navbar">
+		<li class="nav"><a href="index.htm">Home</a></li>
+		<li class="nav"><a href="menu.htm">Menu</a></li>
+		<li class="nav"><a href="entertainment.htm">Live Entertainment/Events</a></li>
+		<li class="nav"><a href="aboutUs.htm">About Us</a></li>
+		<li class="nav"><a href="locationHours.htm">Location/Contact Us</a></li>
+	</ul>	
+</header>
+<body>
+	<h1>Welcome to Roastie's Coffee Shop</h1>
+	
+	<!--********** inline style command -->
+	<p style="font-size:1.4em;"><strong>Roasties is a new local coffee house that roasts it's own coffee from the best coffee sources around the world.</strong>
+	We also offer a range of sandwiches, salads and homemade soups; along with a wide variety of cakes, pastries and desserts. 
+	Local entertainment such as acoustic music will be provided on weekend evenings. The atmosphere is urban funk and located in the college-town center. 
+	Please feel free to come join us at our new location!</p>
+	
+	<img class="splitImg" src="Images/coffeeHouse1.jpg" alt="coffee house picture" />
+	<img class="splitImg" src="Images/coffee1.jpg" alt="coffee picture" />
+	
+	
+	<h2>Features:</h2>
+	<div id="center">
+	<ul>
+		<li class="list">Coffee Roasted In-House</li>
+		<li class="list">Free Wi-Fi</li>
+		<!--I'm linking to the top section of my menu page here -->
+		<li class="list"><a class="linker" href="menu.htm#top">Tasty Food</a></li>
+		<li class="list">Great Entertainment</li>
+		<li class="list">Relaxing Atmosphere</li>
+	</ul>
+	</div>
+<footer>
+	<h6>Roastie's Coffee. All rights reserved. Website powered by Austin Kingrey Industries</h6>
+</footer>
+</div>
+</html>

@@ -1,0 +1,67 @@
+
+@import url(footer.css);
+
+body{
+	font-size: 1em;
+	font: Georgia;
+	margin-top: 1em;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	width:960px;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:bold;
+	border-width:1px;
+	background-color:#f3f6e9;
+}
+
+header{
+	width:960px;
+}
+
+#left{
+	width:296px;
+	padding:10px;
+	border:solid 3px teal;
+	float:left;
+}
+
+#middle{
+	width:296px;
+	padding:10px;
+	border:solid 3px teal;
+	float:left;
+}
+
+#right{
+	width:296px;
+	padding:10px;
+	float:left;
+}
+
+h1{
+	padding:10px;
+	font-color:white;
+	text-align:center;
+	background: teal url("blacktexture.jpg") repeat;
+}
+
+h2{
+	padding:10px;
+	margin-bottom:10px;
+	text-color:white;
+	background-color:navy;
+	text-align:center;
+}
+
+p{
+	text-indent:1em;
+}

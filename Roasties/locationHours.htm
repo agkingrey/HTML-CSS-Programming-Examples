@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Location and Hours and Contact Form</title>
+	<!--Link to stylesheet -->
+	<link rel="stylesheet" href="styler.css" type="text/css" />
+	
+	<style type="text/css">
+		h1{
+			text-align:center;
+		}
+		p{
+			text-indent:0;
+			margin:0;
+			padding:0;
+		}
+		aside{
+			float: right;
+			width:550px;
+		}
+		main{
+			width:45%;
+		}
+		form{
+			margin-bottom:1em;
+			padding:.5em;
+			background-color:#c9c3b5;
+			font-size:16px;
+		}
+		label{
+			width:180px;
+			margin:0 15px 0 4px;
+			color:black;
+			float:left;
+			text-align:right;
+		}
+		legend{
+			padding:0 10px 0 10px;
+			color:#354660
+			font-weight:bold;
+		}
+		fieldset{
+			width:80%;
+			margin:1em;
+			border: 5px solid #354660;
+			padding:.5em;
+			background-color:#e9edda;
+		}
+		input.button{
+			margin-top:5em;
+			border: thin solid black;
+			color:black;
+			background-color:yellow;
+			font-weight:bold;
+			display:inline;
+		}
+		input{
+			display:block;
+		}
+	</style>
+</head>
+<!--Wrapper responsible for centering and filling the screen -->
+<div id="wrapper">
+<!--This header will be copied across all pages -->
+<header>
+	<img class="headerImg" src="Images/RoastiesLogo.jpg" alt="header image" />
+	<!--Nav bar-->
+	<ul class="navbar">
+		<li class="nav"><a href="index.htm">Home</a></li>
+		<li class="nav"><a href="menu.htm">Menu</a></li>
+		<li class="nav"><a href="entertainment.htm">Live Entertainment/Events</a></li>
+		<li class="nav"><a href="aboutUs.htm">About Us</a></li>
+		<li class="nav"><a href="locationHours.htm">Location/Contact Us</a></li>
+	</ul>	
+</header>
+<body>
+	<h1>Location/Contact Us</h1>
+ <aside>
+	<img src="Images/direction2.jpg" alt="map" width="506" height="456">
+ </aside>
+ 
+ <main>
+	
+	
+	<h2>Location</h2>
+	<p>604 24th St.</p>
+	<p>Suite 100</p>
+	<p>Minneapolis, Minnesota 55405</p>
+	
+	<h2>Hours</h2>
+	<p>Sunday: 7:00 am to 9 pm</p>
+	<p>Monday - Thursday: 6:00 am to 10:00 pm</p>
+	<p>Friday: 6:00 am to 11:00 pm</p>
+	<p>Saturday: 6:30 am to 11:00 pm</p>
+	
+	<h2>Contact Us</h2>
+	<p>702-971-1154. Please give us a call, <a href="mailto:roasties@roasties.com">Email</a> or fill out the form, and we'll email you ASAP.</p>
+	<form id="customerInfo" action="formEmailer.php" method="post">
+		<fieldset><legend>Contact Info</legend>
+			<label></label>
+			<label for="firstname">First Name</label>
+			<input type="text" name="firstname" id="firstname" size="15" />
+			<label for="lastname">Last Name</label>
+			<input type="text" name="lastname" id="lastname" size="20" />
+			<label for="phone">Phone</label>
+			<input type="text" name="phone" id="phone" size="12" maxlength="12" />
+			<label for="address1">Address Line 1</label>
+			<input type="text" name="address1" id="address1" size="20" />
+			<label for="address2">Address Line 2</label>
+			<input type="text" name="address2" id="address2" size="20" />
+			<label for="city">City</label>
+			<input type="text" name="city" id="city" sixe="20"/>
+			<label for="state">State</label>
+			<select name="state" id="state">
+				<option>Minnesota</option>
+				<option>Iowa</option>
+				<option>Wisconsin</option>
+				<option>Illinois</option>
+			</select>
+			<br>
+			<label for="zip">Zip Code</label>
+			<input type="text" name="zip" id="zip" size="5" maxlength="5"/>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" size="40" maxlength="40" />
+			<label for="offers">I would like to recieve special offers and emails.</label>
+			<input type="checkbox" name="offers" id="offers" checked="checked" />
+			<br>
+			<label>Please select gender.</label>
+			<label class="nope" for="male">
+			<input type="radio" name="gender" id="male" value="male" checked="checked" />
+			Male</label>
+			<label class="nope" for="female">
+			<input type="radio" name="gender" id="female" value="female" />
+			Female</label>
+			<label class="nope" for="other">
+			<input type="radio" name="gender" id="other" value="other" />
+			Other</label>
+			<br>
+			<label for="text">Ask your question here:</label>
+			</br>
+			<textarea name="text" id="text" rows="10" cols="45"></textarea>
+			</br>
+			<input type="submit" value="submit" class="button" />
+			<input type="reset" value="cancel" class="button" />
+		</fieldset>
+	</form>
+ </main>	
+</body>
+<footer>
+	<h6>Roastie's Coffee. All rights reserved. Website powered by Austin Kingrey Industries</h6>
+</footer>
+</div>
+</html>
